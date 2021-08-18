@@ -1,0 +1,53 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+  padding-left:15px;
+
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  p
+  {
+    text-align: center;
+    
+  }
+
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+  }
+
+  .red-btn
+  {
+    background-color: indianred;
+  }
+  .blue-btn
+  {
+    background-color: lightskyblue;
+  }
+  .todo-item
+  {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    background-color: rgb(253, 217, 148);
+    border-radius: 15%;
+  }
+
+  .todo-form
+  {
+    border:2px solid greenyellow;
+    border-radius: 10%;
+  }
