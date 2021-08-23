@@ -10,6 +10,8 @@ export default class AddTodoList extends Component {
       const handleSubmit= event =>{ 
         event.preventDefault();
         var input=event.target.userInput.value
+        if(input=="")
+        {return}
         store.dispatch(addTodo(input));
         event.target.userInput.value="";
       }

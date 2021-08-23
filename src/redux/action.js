@@ -1,5 +1,5 @@
 import * as action  from "./actionTypes";
-var countId=3;
+var countId=0;
 
 
 export function addTodo(description)

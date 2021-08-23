@@ -1,19 +1,23 @@
 
-
-import { deleteTodo} from "../redux/actionTypes";
+import { deleteTodo } from '../redux/action';
 import { connect } from 'react-redux'
+import "./AddTodoList.css"
 import Todo from './Todo'
 const TodoList=(props)=>
 {
   return (
-    <div>
+    <div className="todo-item">
+      <ul>
       {
         props.todos.map((todo,index)=>(
-          <div>
-          <Todo key={index} description={todo.description} id={todo.id}/>
-          </div>
+          <li key={index}>
+          {todo.description} <input type="checkbox" className="check" ></input><button className="btn red-btn" onClick={()=>props.dispatch(deleteTodo(todo.id))}>Delete</button>
+          </li>
         ))}
+    </ul>
+
     </div>
+ 
   );
 };
 
@@ -22,6 +26,27 @@ const mapStateToProps=(state)=>({
 
 })
 export default connect(mapStateToProps)(TodoList)
+// import { connect } from 'react-redux'
+// import Todo from './Todo'
+// const TodoList=(props)=>
+// {
+//   return (
+//     <div>
+//       {
+//         props.todos.map((todo,index)=>(
+//           <div>
+//           <Todo key={index} description={todo.description} id={todo.id}/>
+//           </div>
+//         ))}
+//     </div>
+//   );
+// };
+
+// const mapStateToProps=(state)=>({
+//   todos:state.todos.data
+
+// })
+// export default connect(mapStateToProps)(TodoList)
 
 
 

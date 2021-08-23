@@ -21,12 +21,11 @@ export default function Todos (state=initialState,action)
 
             
         case "deleteTodo":
-        const todos=state.data.filter((todo)=>todo.id !==action.id);
+        const todos=state.data.filter((todo)=>todo.id !== action.payload.id);
         return {
             ...state,data:todos
-        }
-        case  "doneTodo":
-            return state
+
+    }
         default: return state
     }
 }

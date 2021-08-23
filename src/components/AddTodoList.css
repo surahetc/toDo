@@ -3,6 +3,12 @@
   padding-left:15px;
 
 }
+.check
+{
+  transform: scale(2);
+  margin:30px;
+
+}
 input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
@@ -19,7 +25,7 @@ input[type=text] {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20x;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -35,20 +41,34 @@ input[type=text] {
   {
     background-color: lightskyblue;
   }
-  .todo-item
+  .todo-item ul li
   {
+    list-style: none;
+    padding:25px;
+    margin:15px;
+    border-radius: 10px;
 
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin:10px;
-    background-color: rgb(253, 217, 148);
-    border-radius: 15%;
-    height: 70px;
+    background-color: rgb(247, 242, 196);
+  }
+
+  .todo-item ul li button
+  {
+    float: right;
+    border-radius: 15px;
+
   }
 
   .todo-form
   {
     border:2px solid greenyellow;
     border-radius: 10%;
+  }
+
+  .done
+  {
+    background-color: indianred;
+  }
+
+  h1{
+    font-size: 60px;
   }
