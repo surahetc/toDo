@@ -44,6 +44,7 @@ input[type=text] {
     margin:10px;
     background-color: rgb(253, 217, 148);
     border-radius: 15%;
+    height: 70px;
   }
 
   .todo-form
