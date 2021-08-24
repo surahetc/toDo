@@ -2,7 +2,6 @@
 import { deleteTodo } from '../redux/action';
 import { connect } from 'react-redux'
 import "./AddTodoList.css"
-import Todo from './Todo'
 const TodoList=(props)=>
 {
   return (
