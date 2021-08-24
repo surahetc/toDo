@@ -11,7 +11,7 @@ const TodoList=(props)=>
       {
         props.todos.map((todo,index)=>(
           <li key={index}>
-          {todo.description} <input type="checkbox" className="check" ></input><button className="btn red-btn" onClick={()=>props.dispatch(deleteTodo(todo.id))}>Delete</button>
+          {todo.description} <input type="checkbox" className="check" onClick={(event)=>{event.target.parentNode.classList.toggle("done-2")}}></input><button className="btn red-btn" onClick={()=>props.dispatch(deleteTodo(todo.id))}>Delete</button>
           </li>
         ))}
     </ul>

@@ -44,7 +44,7 @@ input[type=text] {
   .todo-item ul li
   {
     list-style: none;
-    padding:25px;
+    padding:10px;
     margin:15px;
     border-radius: 10px;
 
@@ -64,9 +64,19 @@ input[type=text] {
     border-radius: 10%;
   }
 
-  .done
+  /* .done-1
+  {
+    list-style: none;
+    padding:8px;
+    margin:8px;
+    border-radius: 7px;
+    text-decoration: line-through;
+
+  } */
+  .done-2
   {
     background-color: indianred;
+    text-decoration: line-through;
   }
 
   h1{
