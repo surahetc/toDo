@@ -1,0 +1,40 @@
+Description of the project:- 
+
+GITHUB link for this project :- https://github.com/surahetc/toDo
+
+The project is a about a website where users can add todo items. It contains  following features. 
+	1. Add a todo item
+	2. Mark a todo item as done
+	3. Delete the todo item
+
+	------------------------------------------------------------------
+
+	Details about the web pages: -
+
+	It is a one page application which is responsive, user can enter the task into the todo item and click "Add" 
+	then click "delete" or checkbox as per the task status
+----------------------------------------------------------------
+Technologies used :
+
+	1. React
+	2. Redux
+	3. Node JS
+
+-----------------------------------------------------------------
+
+All the commits done in the projects and their description : - 
+
+	1st commit : Intialize the react app.
+
+	2nd commit : Added the basic todo submit functionality 
+	
+	3rd commit : Added the css to the todo app 
+	4th commit : Added delete task functionality and so on 
+Further commits are about the improvement of minute details like
+	minor tweaking of css details,
+	addition of documentation file
+
+
+
+
+------------------------------THE END------------------------------
